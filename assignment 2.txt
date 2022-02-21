@@ -1,0 +1,64 @@
+Q.1)List 5 difference between Browser JS(console) v Nodejs
+Ans:Difference between Javascript and Nodejs:
+a) Javascript is a client side coding but Nodejs enables server side coding written in Javascript.
+b) Js is a language but nodejs is not a language but it has v8 engine it runs javascript on the server side.
+c) Javascript runs inside the browser and node js runs outside the browser(i.e. server).
+d) Js provides the behaviour to your pages (HTML,CSS) and nodejs is a server that can perform server functions like reading files, database objects,etc.
+e) Nodejs has (NPM)node package manager used for sharing and reusing the code. 
+
+Q.2) watch & summary 5 points - 
+ 
+how does the browser actually render a website:
+Rendering: parsing, layout, painting and display data.
+Parse HTML and CSS both combined to render tree, layout and painting.
+The HTML tokenizer has start tag and end tag.
+	start tag- <tagname>  End tag - </tagname>
+It coverd HTML parse and CSS parse and DOM extra.
+This presentation totally about how the website works by using HTML,CSS.
+
+Q.4) Execute the below code and write your description in txt file
+
+Ans:The type of a variable is determined by the type of the value assigned to it.
+ JavaScript has a special operator called typeof which let us get the type of any value.
+
+ Syntax :
+ The typeof operator is followed by its operand:
+ typeof operand
+typeof(operand)
+
+a) typeof(1)
+console.log(typeof(1));  //number
+The data type of 1 is number.
+
+b) typeof(1.1)
+console.log(typeof(1.1));  //number
+The data type of 1.1 is number.
+
+c) typeof('1.1')
+console.log(typeof('1.1')); //string
+The data type of '1.1' is string.
+
+d) typeof(true)
+console.log(typeof(true));   //Boolean
+The data type of true is boolean.
+
+e) typeof(null)
+console.log(typeof(null));    //object
+The data type of null is object.
+
+f) typeof(undefined)
+console.log(typeof(undefined));  //undefined
+The data type of an undefined variable is undefined.
+The data type of a variable that has not been assigned a value is also undefined.
+
+g) typeof([])
+console.log(typeof([]));  //object
+The data type of an array is object.
+
+h) typeof({})
+console.log(typeof({})); //object
+The data type of {} is object.
+
+i) typeof(NaN)
+console.log(typeof(NaN)); // number 
+The data type of NaN is number.
